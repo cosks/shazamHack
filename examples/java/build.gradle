@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin:'application'
+
+mainClassName = "com.shazam.tagstream.TagStreamer"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile(
+		"redis.clients:jedis:2.0.0",
+    	"org.codehaus.jackson:jackson-mapper-asl:1.9.13"
+	)
+}

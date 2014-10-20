@@ -1,0 +1,4 @@
+This example shows how to read the tag stream with Java using the Jedis library
+
+To run:
+	$ gradle run

@@ -1,0 +1,8 @@
+This example shows how to read the tag stream with php using the predis-async library
+
+This requires the following dependencies:
+	https://github.com/redis/hiredis
+	https://github.com/nrk/phpiredis
+
+To run:
+	$ make

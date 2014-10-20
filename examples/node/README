@@ -1,0 +1,4 @@
+This example shows how to read the tag stream with nodejs using the redis library
+
+To run:
+	$ make

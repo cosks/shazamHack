@@ -1,0 +1,18 @@
+<html>
+	<div id="tags"></div>
+<script>
+    var socket = new WebSocket("ws://colin.dev.shazamteam.net:7380");
+
+    socket.onmessage = function(event) {
+		var div = document.getElementById('tags');
+		var data = JSON.parse(event.data);
+		div.innerHTML = div.innerHTML + "Tagged '" + data.match.track.metadata.trackTitle + "' by " + data.match.track.metadata.artistName + "<br/>";
+    }
+
+    socket.onopen = function(event) {
+    };
+
+    socket.onclose = function(event) {
+    };
+</script>
+</html>
