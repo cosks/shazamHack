@@ -1,0 +1,17 @@
+Recommendations:
+	Use users tagging history to recommend songs they might like
+
+Real Time Metrics:
+	Generate graphs of interesting data, e.g. tags per second, per hour, and display on a web page
+
+Genre Identification:
+	Cluster tracks into 'genres' based on which accounts tag which sets of songs, Netflix style
+
+Phone Distribution Map:
+	Where do people have iPhones vs Androids?
+
+Age Mapper:
+	Identify where people like classics vs newer songs (Something like EchoNest could help here)
+
+Elite Taggers:
+	Trace users who are the most active
